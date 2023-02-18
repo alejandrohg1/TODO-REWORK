@@ -12,7 +12,8 @@
     "nodemon": "^2.0.20"
   },
   "scripts": {
-    "serve": "nodemon server.js"
+    "serve": "nodemon server.js",
+    "start": "node server.js"
   },
   "description": "socialmedia",
   "main": "index.js",
