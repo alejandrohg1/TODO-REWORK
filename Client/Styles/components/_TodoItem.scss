@@ -1,0 +1,61 @@
+.todo-item {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  padding: 1.1rem 3rem;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+
+  .label{
+    position: relative;
+    font-weight: 100;
+    transition: width .2s linear;
+    display: block;
+  }
+
+    .done.label:before{
+    content: "";
+    display:block;
+    position: absolute;
+    width: calc(100% + 1rem);
+    height: 2px;
+    background: #fff;
+    top: 50%;
+    left: -0.5rem;
+    animation: strikeitem 0.3s ease-in;
+    animation-fill-mode: forwards;
+  }
+
+  
+  .item-buttons {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    input[type="checkbox"] {
+      background-color: red;
+    }
+  }
+}
+
+@keyframes strikeitem {
+  from {
+    width:0px;
+}
+
+to {
+    width:calc( 100% - 1px );
+}
+}
+
+@keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(100px);
+            transform: translateX(100px);
+  }
+}
+

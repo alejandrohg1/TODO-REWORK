@@ -1,0 +1,29 @@
+.sidebar {
+  border-right: 1px solid black;
+  width: 4rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  -webkit-font-smoothing: antialiased;
+
+  .top-square {
+    border-bottom: 1px solid black;
+    height: 3rem;
+    width: 150%;
+  }
+
+  h2 {
+    color: white;;
+    position: relative;
+    font: bold 20px Sans-Serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    line-height: 24px;
+    transform: rotate(-90deg);
+    width: 40rem;
+    top:35%;
+
+  }
+}

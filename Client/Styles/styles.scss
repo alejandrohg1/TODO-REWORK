@@ -1,0 +1,11 @@
+@import "./base/settings";
+@import "./base/base";
+@import "./components/MainLayout";
+@import "./components/sidebar";
+@import "./components/TodoApp";
+@import "./components/TodoItem";
+
+body{
+  background-color: $color-pocho;
+  overflow: hidden;
+}
