@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                bat 'npm run dev'
+                bat 'cd Client && npm run dev'
             }
         }
     }
