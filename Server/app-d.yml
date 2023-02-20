@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: myapp
+spec:
+  selector:
+    matchLabels:
+      app: myapp
+  template:
+    metadata:
+      labels:
+        app: myapp
+    spec:
+      containers:
+      - name: myapp
+        image: im/app
+        resources:
+          limits:
+            memory: "258Mi"
+            cpu: "800m"
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 5173
