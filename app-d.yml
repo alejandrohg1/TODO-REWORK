@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: im/app
+        image: im/todolist
         resources:
           limits:
             memory: "258Mi"
