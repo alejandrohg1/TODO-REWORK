@@ -12,7 +12,7 @@ const TodoApp = () => {
 
   useEffect(() =>{
 
-    getTodos(setTodoList);
+    getTodos(setTodoList).then(respuestaDeLaAPI => {console.log(respuestaDeLaAPI)}).catch(e => {console.log(e)});
     
   },[])
 
