@@ -19,6 +19,7 @@ el server esta hecho con el framework express toda la configuracion del server e
 el cual se conecta con la base de datos en mongo db donde , la linea de conexion esta en en archivo .env
 
 en frontend esta hecho en react js
+haciendo un commit
 
 DOQUER - CUBERNEC CONFIG
 
