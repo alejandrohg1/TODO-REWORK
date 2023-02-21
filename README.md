@@ -52,3 +52,31 @@ kubectl apply -f app-s.yml
 -------/Client--------
 7-Correr la imagen del server
 docker run -p 5173:3000 im/todolist
+
+COMO INSTALAR  TERRAFORM
+
+PASO 1
+
+Instalar kind
+choco install kind
+
+PASO 2 
+Crear Cluster
+kind create cluster --name terraform-learn
+
+PASO 3
+kubectl config view --minify --flatten --context=kind-terraform-learn
+
+Define the variables in a terraform.tfvars file.
+
+host corresponds with clusters.cluster.server.
+client_certificate corresponds with users.user.client-certificate.
+client_key corresponds with users.user.client-key.
+cluster_ca_certificate corresponds with clusters.cluster.certificate-authority-data.
+
+buscar esas variables pog
+
+PASO 4
+ terraform init
+PASO 5
+terraform apply rezar
