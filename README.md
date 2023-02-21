@@ -56,7 +56,8 @@ docker run -p 5173:3000 im/todolist
 COMO INSTALAR  TERRAFORM
 
 PASO 1
-
+Instalar Terraform
+choco install terraform
 Instalar kind
 choco install kind
 
