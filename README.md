@@ -75,9 +75,11 @@ client_certificate corresponds with users.user.client-certificate.
 client_key corresponds with users.user.client-key.
 cluster_ca_certificate corresponds with clusters.cluster.certificate-authority-data.
 
-buscar esas variables pog
-
+buscar esas variables pog y cambiarlas en el archivo terraform.tfvars
 PASO 4
- terraform init
+ir cada carpeta cd Terraform y cd Terraformclient y correr los siguientes comandos
+terraform init
 PASO 5
-terraform apply rezar
+terraform apply 
+
+esperar a que te funcione y rezar
