@@ -1,6 +1,7 @@
 import Sidebar from "./layout/Sidebar";
 import TodoApp from "./components/TodoApp";
 function App() {
+  console.log("Desde App");
   return (
     <>
     <div className="noise"></div>
