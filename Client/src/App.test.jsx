@@ -13,6 +13,6 @@ afterEach(() => {
 describe('App', () => {
   it('renders the welcome message with the user name', () => {
     render(<App />);
-    expect(screen.getByText(/Wri anything your mind is up to/i)).toBeInTheDocument();
+    expect(screen.getByText(/Write anything your mind is up to/i)).toBeInTheDocument();
   });
 });
