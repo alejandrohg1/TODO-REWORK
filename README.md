@@ -53,3 +53,5 @@ kubectl apply -f app-s.yml
 -------/Client--------
 7-Correr la imagen del server
 docker run -p 5001:3000 im/todolist
+
+
