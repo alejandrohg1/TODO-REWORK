@@ -55,3 +55,4 @@ kubectl apply -f app-s.yml
 docker run -p 5001:3000 im/todolist
 
 https://dev.to/ayabouchiha/react-material-ui-carousel-3mab
+https://stackoverflow.com/questions/66409395/hide-nav-button-in-react-material-ui-carousel
